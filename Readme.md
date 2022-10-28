@@ -11,7 +11,3 @@ mvn spring-boot:run
 Veja a imagem de como está feita essa arquitetura em uma visão de componentes do C4 model
 
 ![modelo.png](modelo.png)
-
-Também fiz um exemplo igual em Quarkus.
-Veja o repo abaixo:
-https://github.com/natanielpaiva/arquitetura-hexagonal
