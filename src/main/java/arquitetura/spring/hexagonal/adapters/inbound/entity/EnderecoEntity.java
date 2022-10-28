@@ -1,16 +1,13 @@
 package arquitetura.spring.hexagonal.adapters.inbound.entity;
 
 
-
 import arquitetura.spring.hexagonal.application.core.domain.Endereco;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 
 @Entity
-@Getter
-@Setter
+@Data
 public class EnderecoEntity extends Endereco {
     @Id
     @Column(name = "id", nullable = false)
